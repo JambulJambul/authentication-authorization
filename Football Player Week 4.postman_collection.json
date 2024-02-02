@@ -33,7 +33,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:3000/users/details/3",
+							"raw": "localhost:3000/users/details/6",
 							"host": [
 								"localhost"
 							],
@@ -41,7 +41,7 @@
 							"path": [
 								"users",
 								"details",
-								"3"
+								"6"
 							]
 						}
 					},
@@ -55,7 +55,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo0LCJ1c2VyX25hbWUiOiJEb25uaWUiLCJ1c2VyX3JvbGUiOiJwdWJsaWMiLCJpYXQiOjE3MDY4NjI3MjcsImV4cCI6MTcwNjk0OTEyN30.eaygkTu_bQMmI5mDKznZC7FInFi4gYOqgX7W5JEg_TA",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2LCJ1c2VyX25hbWUiOiJHaWdpaCIsInVzZXJfcm9sZSI6InB1YmxpYyIsImlhdCI6MTcwNjg3NjY5NSwiZXhwIjoxNzA2OTYzMDk1fQ.7lLpkbS6RElCiELi6gwcI-mql9PL47UtnxP6z7ArFME",
 									"type": "string"
 								}
 							]
@@ -90,7 +90,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"user_name\": \"Jambul\",\r\n    \"user_email\": \"hilman_fahmi@gmail.com\",\r\n    \"user_password\": \"tes34asfaf\"\r\n}",
+							"raw": "{\r\n    \"user_name\": \"Gigih\",\r\n    \"user_email\": \"gigih@gmail.com\",\r\n    \"user_password\": \"test123456\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -117,7 +117,7 @@
 						"method": "POST",
 						"header": [],
 						"url": {
-							"raw": "localhost:3000/users/restore/3",
+							"raw": "localhost:3000/users/restore/6",
 							"host": [
 								"localhost"
 							],
@@ -125,7 +125,7 @@
 							"path": [
 								"users",
 								"restore",
-								"3"
+								"6"
 							]
 						}
 					},
@@ -138,7 +138,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"user_email\": \"donniy2@gmail.com\",\r\n    \"user_password\": \"test123456\"\r\n}",
+							"raw": "{\r\n    \"user_email\": \"gigih@gmail.com\",\r\n    \"user_password\": \"test123456\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -166,7 +166,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"user_email\":\"donniy@gmail.com\"\r\n}",
+							"raw": "{\r\n    \"user_email\":\"gigih@gmail.com\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -194,7 +194,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"user_email\":\"donniy@gmail.com\",\r\n    \"user_password\":\"test1234\",\r\n    \"otp_code\":\"308213\"\r\n}",
+							"raw": "{\r\n    \"user_email\":\"gigih@gmail.com\",\r\n    \"user_password\":\"test123456\",\r\n    \"otp_code\":\"221424\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -216,14 +216,14 @@
 					"response": []
 				},
 				{
-					"name": "[PATCH] Update Profile",
+					"name": "[PATCH] Update Profile (Authenticated)",
 					"request": {
 						"auth": {
 							"type": "bearer",
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo0LCJ1c2VyX25hbWUiOiJEb25uaWUiLCJ1c2VyX3JvbGUiOiJwdWJsaWMiLCJpYXQiOjE3MDY4NjI3MjcsImV4cCI6MTcwNjk0OTEyN30.eaygkTu_bQMmI5mDKznZC7FInFi4gYOqgX7W5JEg_TA",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2LCJ1c2VyX25hbWUiOiJHaWdpaCIsInVzZXJfcm9sZSI6InB1YmxpYyIsImlhdCI6MTcwNjg3NjY5NSwiZXhwIjoxNzA2OTYzMDk1fQ.7lLpkbS6RElCiELi6gwcI-mql9PL47UtnxP6z7ArFME",
 									"type": "string"
 								}
 							]
@@ -232,7 +232,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"user_name\":\"John\"\r\n}",
+							"raw": "{\r\n    \"user_name\":\"Gigih Dharmawan\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -254,14 +254,14 @@
 					"response": []
 				},
 				{
-					"name": "[PATCH] Change Password",
+					"name": "[PATCH] Change Password (Authenticated)",
 					"request": {
 						"auth": {
 							"type": "bearer",
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo0LCJ1c2VyX25hbWUiOiJKb2huIiwidXNlcl9yb2xlIjoicHVibGljIiwiaWF0IjoxNzA2ODY1MTY0LCJleHAiOjE3MDY5NTE1NjR9.MOIUW5hBdApU4HN-J4V6bRc5n0R7HcY5R96MzxHKVQY",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2LCJ1c2VyX25hbWUiOiJHaWdpaCIsInVzZXJfcm9sZSI6InB1YmxpYyIsImlhdCI6MTcwNjg3NjY5NSwiZXhwIjoxNzA2OTYzMDk1fQ.7lLpkbS6RElCiELi6gwcI-mql9PL47UtnxP6z7ArFME",
 									"type": "string"
 								}
 							]
@@ -270,7 +270,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"user_password\":\"test123456\"\r\n}",
+							"raw": "{\r\n    \"user_password\":\"test1234\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -297,7 +297,7 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "localhost:3000/users/delete/3",
+							"raw": "localhost:3000/users/delete/6",
 							"host": [
 								"localhost"
 							],
@@ -305,7 +305,7 @@
 							"path": [
 								"users",
 								"delete",
-								"3"
+								"6"
 							]
 						}
 					},
